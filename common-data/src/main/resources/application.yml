@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: common-data
+  profiles:
+    active: data-local
+  messages:
+    basename: messages/i18n
+    encoding: UTF-8
+    cache-duration: -1
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss （直接使用时间戳）
+project:
+  name: common-data
+log:
+  path: log
+  level: info
